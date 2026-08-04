@@ -1,18 +1,20 @@
-# mcp-homebrew-formulae
+# @pipeworx/homebrew-formulae
 
-Homebrew formulae.brew.sh MCP.
+Homebrew [formulae.brew.sh](https://formulae.brew.sh) MCP — formulae + casks + installation counts. Keyless.
 
-Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 673+ live data sources.
+Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1394+ live data sources.
 
 ## Tools
 
-| Tool | Description |
-|------|-------------|
-| `formula` | Formula by name. |
-| `cask` | Cask by name. |
-| `analytics_install` | Install counts. Pass formula to scope, or omit for top list. |
-| `analytics_cask_install` | Cask install counts. |
-| `recent_formulae` | Recently-added formulae. |
+- `formula(name)` — formula by name
+- `cask(name)` — cask by name
+- `analytics_install(formula?, days?)` — install counts (per formula or top list)
+- `analytics_cask_install(cask?, days?)` — cask install counts
+- `recent_formulae(days?, limit?)` — recently-added formulae
+
+## Data source
+
+`https://formulae.brew.sh/api/`
 
 ## Quick Start
 
@@ -28,7 +30,7 @@ Add to your MCP client (Claude Desktop, Cursor, Windsurf, etc.):
 }
 ```
 
-Or connect to the full Pipeworx gateway for access to all 673+ data sources:
+Or connect to the full Pipeworx gateway for access to all 1394+ data sources:
 
 ```json
 {
@@ -52,7 +54,7 @@ The gateway picks the right tool and fills the arguments automatically.
 
 ## More
 
-- [All tools and guides](https://github.com/pipeworx-io/examples)
+- [Docs and guides](https://pipeworx.io/docs)
 - [pipeworx.io](https://pipeworx.io)
 
 ## License
