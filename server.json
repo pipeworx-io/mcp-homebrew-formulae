@@ -2,8 +2,8 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.pipeworx-io/homebrew-formulae",
   "title": "Homebrew Formulae",
-  "description": "Homebrew formulae + casks + install analytics (formulae.brew.sh)",
-  "version": "0.1.0",
+  "description": "Homebrew formulae.brew.sh MCP.",
+  "version": "0.1.1",
   "websiteUrl": "https://pipeworx.io/packs/homebrew-formulae",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-homebrew-formulae",
