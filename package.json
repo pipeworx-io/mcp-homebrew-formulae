@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-homebrew-formulae",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Homebrew formulae.brew.sh MCP.",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-5b0adf5702b885276590251d95836d21887f61fff9df829ee7df6c98b1c62ef3",
-    "sourceCommit": "1064560fd9dcd0d6fc2606298c2ba244b3a1fbeb"
+    "sourceHash": "v1-f805bd757c2df7af50e9e8c13500bbb980a3a2756c19ba972128976864615f7f",
+    "sourceCommit": "24e32b525f9c0b2fd7d94b519b08abb108cc11cd"
   }
 }
