@@ -1,0 +1,79 @@
+[
+  {
+    "name": "formula",
+    "description": "Formula by name.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "name"
+      ]
+    }
+  },
+  {
+    "name": "cask",
+    "description": "Cask by name.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "name"
+      ]
+    }
+  },
+  {
+    "name": "analytics_install",
+    "description": "Install counts. Pass formula to scope, or omit for top list.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "formula": {
+          "type": "string"
+        },
+        "days": {
+          "type": "number",
+          "description": "30 | 90 | 365 (default 30)."
+        }
+      }
+    }
+  },
+  {
+    "name": "analytics_cask_install",
+    "description": "Cask install counts.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "cask": {
+          "type": "string"
+        },
+        "days": {
+          "type": "number"
+        }
+      }
+    }
+  },
+  {
+    "name": "recent_formulae",
+    "description": "DOES NOT WORK and cannot be made to: formulae.brew.sh/api/formula.json no longer carries a `date_added` field on any of its 8,600 formulae (verified 2026-09-16), so there is nothing left to sort or filter by and this tool can only return an empty list with `empty_reason: \"upstream_field_removed\"`. Homebrew publishes no dated feed. For install popularity use analytics_install; for a single formula use formula.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "days": {
+          "type": "number",
+          "description": "1-365 (default 30)."
+        },
+        "limit": {
+          "type": "number"
+        }
+      }
+    }
+  }
+]
