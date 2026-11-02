@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-homebrew-formulae",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Homebrew formulae.brew.sh MCP.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "homebrew-formulae",
     "gatewaySlug": "homebrew-formulae",
-    "sourceHash": "v1-3b937a5056ee6a35b5d79cf352f29f78c69b74089d93116f743c0606ff6780f4",
-    "sourceCommit": "4844029e402d6bd2fe735add8abf6d46735f8ed5"
+    "sourceHash": "v1-c986c3d7d43284bb0df96a72c09ad62b2e3199de5cc2d9f1c895fe22353cab42",
+    "sourceCommit": "0ca9712c0ac03bb0121cc7e81b202d0c45ac02ca"
   }
 }
